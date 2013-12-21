@@ -18,10 +18,16 @@ Add the attribute `data-equal-hights="true"` to all elements that are to be the 
 	</div>
 </div>
 ```
-Elements are sized with the min-height property to allow them to go in size if necessary.
+Elements are sized with the min-height property to allow them to grow in size if necessary.
+
+To update the size of Equal Heights divs as the browser window changes size run the following code snippet on document ready after the Equal Heights script has been loaded
+
+```javascript
+$(window).on('resize', equalHeights);
+```
 
 ## Dependencies
 EqualHeights needs [jQuery](http://jquery.com/)
 
 ## License
-EqualHeights is released under the [MIT License](http://ben.mit-license.org/)
+EqualHeights is released under the [MIT License](http://mit-license.org/)
