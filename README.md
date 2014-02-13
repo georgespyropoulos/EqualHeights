@@ -27,7 +27,7 @@ $(window).on('resize', equalHeights);
 ```
 
 ## Dependencies
-EqualHeights needs [jQuery](http://jquery.com/)
+EqualHeights needs [jQuery](http://jquery.com/) 1.7 or higher
 
 ## License
 EqualHeights is released under the [MIT License](http://mit-license.org/)
